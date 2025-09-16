@@ -57,7 +57,7 @@ const Lucia = () => {
         </div>
 
         <div className="lucia-2">
-          <img src="/images/jason-2.webp" />
+          <img src="/images/lucia-2.webp" />
         </div>
 
         <p className="max-w-xl lg:ps-32 ps-10">
