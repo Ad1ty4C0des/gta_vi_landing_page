@@ -24,7 +24,7 @@ const Hero = () => {
         trigger: ".hero-section",
         start: "top top",
         scrub: 2.5,
-        end: "+=200",
+        end: "+=200%",
         pin: true,
       },
     });
