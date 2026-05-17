@@ -41,7 +41,7 @@ const SecondVideo = () => {
           playsInline
           preload="auto"
           src="/videos/output2.mp4"
-          className="w-full object-cover second-vd"
+          className="w-full h-full object-cover second-vd"
           style={{ objectPosition: "15% 0%" }}
         />
       </div>

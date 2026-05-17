@@ -1,8 +1,18 @@
 import { useMediaQuery } from "react-responsive";
 
 export const useMaskSettings = () => {
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isSmallMobile = useMediaQuery({ maxWidth: 400 });
+  const isMobile = useMediaQuery({ minWidth: 401, maxWidth: 768 });
   const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 });
+
+  if (isSmallMobile) {
+    return {
+      initialMaskPos: "50% -1200vh",
+      initialMaskSize: "2800% 2800%",
+      maskPos: "50% 7vh",
+      maskSize: "60% 60%",
+    };
+  }
 
   if (isMobile) {
     return {

@@ -34,7 +34,7 @@ const Jason = () => {
   }, []);
   return (
     <section className="jason">
-      <div className="max-w-lg jason-content">
+      <div className="max-w-lg jason-content pe-4 sm:pe-0">
         <h1>Jason Duval</h1>
         <h2>Jason wants an easy life, but things just keep getting harder.</h2>
         <p>
@@ -49,7 +49,7 @@ const Jason = () => {
         </div>
       </div>
 
-      <div className="space-y-4 mt-96 img-box">
+      <div className="space-y-4 mt-40 sm:mt-60 md:mt-96 img-box">
         <div className="jason-1">
           <img src="images/jason-1.webp" />
         </div>
